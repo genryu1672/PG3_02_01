@@ -7,12 +7,12 @@ void (Enemy::* Enemy::enemy[])() ={
 	&Enemy::Secession
 };;;
 void Enemy::Move(){
-	printf("GoMoooooooooooooooooooooove\n");
+	printf("GoMove\n");
 	phase_ = Phase::Fire;
 }
 
 void Enemy::Fire(){
-	printf("FireEEEEEEEEEEEEEEEEEEEEEe\n");
+	printf("Fire\n");
 	phase_ = Phase::Secession;
 }
 
