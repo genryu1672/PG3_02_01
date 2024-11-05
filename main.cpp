@@ -5,7 +5,7 @@ int main() {
     while (true) {
         enemy.Update();
         int s;
-        printf("0で続いて、１で終わる（抜ける）\n");
+        printf("0で続いて、１で終わる\n");
         scanf_s("%d", &s);
         if (s == 1) {
             break;
